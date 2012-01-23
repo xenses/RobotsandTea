@@ -1,7 +1,6 @@
 body{
-    background: #ffffff;
-    margin-left: 15%;
-    margin-right: 15%;
+    background: #666b6e;
+
 }
 #accessibility{
     display: none;
@@ -19,9 +18,10 @@ body{
 }
 
 #mainhead{
-    background: url("top_edge.png");
+    background: url("edges.png");
     background-repeat: no-repeat;
     height: 60px;
+    overflow: hidden;
     font-family: 'Gudea', sans-serif;
 
 }
