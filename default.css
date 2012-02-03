@@ -1,38 +1,82 @@
 body{
-    background: #ffffff;
+    background: url("images/sm_back_blk.png");
     margin-left: 15%;
     margin-right: 15%;
 }
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #384244;
+}
+
 #accessibility{
     display: none;
+    clear: none;
 }
 
+#robottea{
+    width:500px;
+    float: left;
+}
 #masthead{
-    background: url("robotsandtea_header.png");
-    background-repeat: no-repeat;
     font-family: 'Quantico', cursive;
-    height: 120px;
     color: white;
-    text-align: right;
     width: 900px;
+    height: 160px;
     font-size: 3em;
+    text-shadow: 2px 2px 5px #42AEC2;
+    }
+masthead p{
+    float: right;
+    clear: right;
 }
 
+#main{
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 900px;
+   
+}
 #mainhead{
-    background: url("top_edge.png");
-    background-repeat: no-repeat;
     height: 60px;
     font-family: 'Gudea', sans-serif;
-
+    background: url("images/top_edge2.png");
+    background-repeat: no-repeat;
+    
 }
 #main-content{
+    background: url("images/sm_back.jpg");
     width: 900px;
     font-family: 'Gudea', sans-serif;
-
-
+    margin:0px;    
+}
+article{
+    padding: 5px;
+}
+h1{
+    padding: 5px;
 }
 
 #nav{
+    background: #ffffff;
     font-family: 'Gudea', sans-serif;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 900px;
+    padding-bottom: 5px;
+}
 
-)
+#nav ul li{
+    background: #42AEC2;
+    font-family: 'Gudea', sans-serif;
+     float: left;
+     width: 125px;
+     text-align: center;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     margin:1px 0 0 0;
+     list-style-type: none;
+     color: #505e60;
+     padding: 5px;
+}
