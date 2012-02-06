@@ -4,12 +4,6 @@ body{
     margin-right: 15%;
 }
 
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #384244;
-}
-
 #accessibility{
     display: none;
     clear: none;
@@ -19,6 +13,7 @@ a{
     width:500px;
     float: left;
 }
+
 #masthead{
     font-family: 'Quantico', cursive;
     color: white;
@@ -26,7 +21,8 @@ a{
     height: 160px;
     font-size: 3em;
     text-shadow: 2px 2px 5px #42AEC2;
-    }
+}
+
 masthead p{
     float: right;
     clear: right;
@@ -38,45 +34,70 @@ masthead p{
     width: 900px;
    
 }
+
 #mainhead{
-    height: 60px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;    height: 60px;
     font-family: 'Gudea', sans-serif;
     background: url("images/top_edge2.png");
     background-repeat: no-repeat;
-    
+
 }
+
 #main-content{
+    -moz-border-radius: 18px;
+    border-radius: 18px;
     background: url("images/sm_back.jpg");
     width: 900px;
     font-family: 'Gudea', sans-serif;
     margin:0px;    
 }
+
 article{
     padding: 5px;
 }
+
 h1{
     padding: 5px;
 }
 
 #nav{
-    background: #ffffff;
+
     font-family: 'Gudea', sans-serif;
     -moz-border-radius: 5px;
     border-radius: 5px;
     width: 900px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+    height: 30px;
 }
 
 #nav ul li{
-    background: #42AEC2;
+    color: #a6bec1;
     font-family: 'Gudea', sans-serif;
-     float: left;
-     width: 125px;
-     text-align: center;
-     -moz-border-radius: 5px;
-     border-radius: 5px;
-     margin:1px 0 0 0;
-     list-style-type: none;
-     color: #505e60;
-     padding: 5px;
+    float: left;
+    width: 125px;
+    text-align: center;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin:8px 5px 0 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #a6bec1;
+    font-family: 'Quantico', sans-serif;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #ffffff;
+   
+}
+footer{
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
