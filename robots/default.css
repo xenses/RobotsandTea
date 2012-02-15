@@ -1,0 +1,112 @@
+body{
+    background: url("images/sm_back_blk.png");
+
+}
+
+#accessibility{
+    display: none;
+    clear: none;
+}
+
+#robottea{
+    width:500px;
+    float: left;
+    margin: auto;
+}
+
+#masthead{
+    font-family: 'Quantico', cursive;
+    color: white;
+    width: 900px;
+    height: 160px;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px #42AEC2;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#main{
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 900px;
+    margin: auto;
+   
+}
+
+#mainhead{
+    height: 60px;
+    font-family: 'Gudea', sans-serif;
+    background: url("images/top_edge2.png");
+    background-repeat: no-repeat;
+}
+
+#main-content{
+    background: url("images/sm_back.jpg");
+    width: 900px;
+    font-family: 'Gudea', sans-serif;
+    margin:0px;    
+}
+
+article{
+    padding: 5px;
+}
+
+#main-content h1{
+    padding: 5px;
+    float: right;
+    font-family: 'Quantico', cursive;
+    font-size: 2em;
+}
+
+#main-content h2{
+    clear: both;
+}
+
+#nav{
+
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+#nav ul li{
+    color: #42AEC2;
+    font-family: 'Gudea', sans-serif;
+    font-size: 1.25em;
+    float: left;
+    width: 125px;
+    text-align: center;
+    -moz-border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+    -moz-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #e98c14;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #22a7d3;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
