@@ -8,10 +8,10 @@ class Post(models.Model):
     def __unicode__(self):
         return self.title
     
-    ### Admin
+### Admin
 
-class PostAdmin(admin.ModelAdmin):
-    search_fields = ['title']
+#class PostAdmin(admin.ModelAdmin):
+#    search_fields = ['title']
         
-admin.site.register(Post, PostAdmin)
+#admin.site.register(Post, PostAdmin)
         
