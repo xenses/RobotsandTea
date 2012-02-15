@@ -1,7 +1,6 @@
 body{
     background: url("images/sm_back_blk.png");
-    margin-left: 15%;
-    margin-right: 15%;
+
 }
 
 #accessibility{
@@ -12,6 +11,7 @@ body{
 #robottea{
     width:500px;
     float: left;
+    margin: auto;
 }
 
 #masthead{
@@ -21,32 +21,27 @@ body{
     height: 160px;
     font-size: 3em;
     text-shadow: 2px 2px 5px #42AEC2;
-}
-
-masthead p{
-    float: right;
-    clear: right;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #main{
     -moz-border-radius: 8px;
     border-radius: 8px;
     width: 900px;
+    margin: auto;
    
 }
 
 #mainhead{
-    -moz-border-radius: 8px;
-    border-radius: 8px;    height: 60px;
+    height: 60px;
     font-family: 'Gudea', sans-serif;
     background: url("images/top_edge2.png");
     background-repeat: no-repeat;
-
 }
 
 #main-content{
-    -moz-border-radius: 18px;
-    border-radius: 18px;
     background: url("images/sm_back.jpg");
     width: 900px;
     font-family: 'Gudea', sans-serif;
@@ -57,45 +52,59 @@ article{
     padding: 5px;
 }
 
-h1{
+#main-content h1{
     padding: 5px;
+    float: right;
+    font-family: 'Quantico', cursive;
+    font-size: 2em;
+}
+
+#main-content h2{
+    clear: both;
 }
 
 #nav{
 
-    font-family: 'Gudea', sans-serif;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
     width: 900px;
-    padding-bottom: 15px;
-    height: 30px;
+    margin: auto;
+    overflow: hidden;
+    background: #FFFFFF;
 }
 
 #nav ul li{
-    color: #a6bec1;
+    color: #42AEC2;
     font-family: 'Gudea', sans-serif;
+    font-size: 1.25em;
     float: left;
     width: 125px;
     text-align: center;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin:8px 5px 0 0;
+    -moz-border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+    -moz-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: auto;
     overflow: hidden;
     list-style-type: none;
-    padding: 5px;
 }
 
 #nav a{
     text-decoration: none;
-    color: #a6bec1;
-    font-family: 'Quantico', sans-serif;
+    color: #e98c14;
+    font-family: 'Architects Daughter', cursive;
 }
 
 #nav a:hover{
     text-decoration: underline;
-    text-shadow: 1px 1px 1px #ffffff;
-   
+    text-shadow: 1px 1px 2px #22a7d3;
+
 }
+
 footer{
     color: white;
     text-align: center;
