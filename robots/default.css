@@ -19,7 +19,7 @@ body{
     color: white;
     width: 900px;
     height: 160px;
-    font-size: 3em;
+    font-size: 3.25em;
     text-shadow: 2px 2px 5px #42AEC2;
     margin: auto;
     padding-bottom: 15px;
@@ -100,8 +100,9 @@ article{
 }
 
 #nav a:hover{
-    text-decoration: underline;
-    text-shadow: 1px 1px 2px #22a7d3;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #aad622;
 
 }
 
