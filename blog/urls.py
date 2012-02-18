@@ -4,10 +4,15 @@ from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('blog.views',
-     url(r'^blog/', 'main'),
-     url(r'^(\d+)/$', 'post'),
-     url(r'^add_comment/(\d+)/$', 'add_comment'),                  
+urlpatterns = patterns('',
+     (r'^$', 'blog.views.index'),
+     url(r'^blog/view/ (?P<slug>[^\.]+).html',
+         'blog.views.view_post',
+         name='view_blog_post'),
+     url(r'^blog/category/ (?P<slug>[^\.]+).html',
+         'blog.views.view_category',
+         name='view_blog_category'),
+
     # Examples:
     # url(r'^$', 'blog.views.home', name='home'),
     # url(r'^blog/', include('blog.foourls')),
