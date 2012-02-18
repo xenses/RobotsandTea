@@ -7,6 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('blog.views',
      url(r'^blog/', 'main'),
      url(r'^(\d+)/$', 'post'),
+     url(r'^add_comment/(\d+)/$', 'add_comment'),                  
     # Examples:
     # url(r'^$', 'blog.views.home', name='home'),
     # url(r'^blog/', include('blog.foourls')),
