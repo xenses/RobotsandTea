@@ -3,7 +3,7 @@ from django.db.models import permalink
 
 
 class Blog(models.Model):
-    title = models.CharField(max_length=100 unique=True)
+    title = models.CharField(max_length=100, unique=True)
     slug = models.SlugField(max_length=100, unique=True)
     body = models.TextField()
     posted = models.DateTimeField(db_index=True, auto_now_add=True)
@@ -29,11 +29,11 @@ class Category(models.Model):
         return ('view_blog_category', None, { 'slug': self.slug })
 
 
-class Comment(models.Model):
+'''class Comment(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     author = models.CharField(max_length=60)
     body = models.TextField()
-    post - models.ForeignKey(Post)
+    post = models.ForeignKey(post)
 
     def __unicode__(self):
         return unicode("%s: $s" % (self.post, self.body[:60]))
@@ -42,3 +42,4 @@ class CommentAdmin(admin.ModelAdmin):
     display_fields = ["post", "author", "created"]
 
 admin.site.register(Comment, CommentAdmin)
+'''
