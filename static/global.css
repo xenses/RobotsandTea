@@ -60,3 +60,7 @@ header h2:after {
   display: block;
   float: right;
 }
+
+#main > aside > img {
+top: -5.5em;
+}

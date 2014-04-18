@@ -116,9 +116,13 @@ a:active, a:focus { outline: none; }
 
 aside { width: 100%; }
 
+#main > aside > img{
+margin-top: -5.5px;
+}
 
 /* 7. BROWSER AND NON-SEMANTIC STYLING
 ----------------------------------------------------------------------------------------*/
 .cf:before, .cf:after { content: ""; display: block; }
 .cf:after { clear: both; }
 .ie6 .cf { zoom: 1 }
+
